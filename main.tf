@@ -26,7 +26,7 @@ module "ecs" {
   }
 
   services = {
-    ecsdemo = { #task def and service yuyuan -> #Change
+    yuyuan-ecsdemo = { #task def and service yuyuan -> #Change
       cpu    = 512
       memory = 1024
 
